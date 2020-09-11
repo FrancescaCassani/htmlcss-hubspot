@@ -396,7 +396,58 @@ main .button p {
 }
 
 /* Contenitore4 */
-.sezione5 .free a {
+/* Sezione testo fourth page */
+/* Customer */
+.testo .customer {
+ height: 150px;
+ width: 250px;
+ margin-left: 10%;
+ padding: 30px;
+}
+
+.testo .customer h1,
+.testo .customer p {
+  text-align: center;
+}
+
+.testo .customer h1 {
+  padding: 10px;
+}
+
+/* Paragrafo */
+.paragrafo {
+  position: relative;
+  left: 15px;
+}
+
+.testo .paragrafo {
+  width: 600px;
+  height: 200px;
+  margin: 25px;
+  padding: 30px;
+}
+
+.testo .paragrafo h2,
+.testo .paragrafo p {
+  padding: 20px;
+  text-align: left;
+}
+
+.paragrafo .free {
+  width: 180px;
+  height: 50px;
+  background: orange;
+  border-radius: 2%;
+  margin-left: 3%;
+}
+
+.paragrafo .free p {
+  padding: 15px;
+  color: white;
+  text-align: center;
+  }
+
+.sezione5 .free p {
   width: 130px;
   height: 40px;
   text-align: center;
@@ -405,46 +456,41 @@ main .button p {
   color: white;
 }
 
+/* Banners */
 .banners {
   position: relative;
 }
 
-.atlassian,
-.subaru {
-  position: absolute;
-  left: 50%;
-}
-
-.doordash,
-.wistia {
-  position: absolute;
-  left: 60%;
-}
-
-.crowd,
-.classpass {
-  position: absolute;
-  left: 70%;
-}
-
-.purple,
-.vmware {
-  position: absolute;
-  left: 80%;
-}
-
-.banners::after {
+.sezione5::after {
   content: "";
   display: table;
   clear: both;
 }
 
+.testo,
 .banners {
-  margin-bottom: 25px;
+  float: left;
 }
-.colonna {
+
+.banners {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.banners .colonna {
   float: left;
   padding: 5px 10px;
+}
+
+.banners .colonna {
+  position: relative;
+  left: 1100px;
+  bottom: 400px;
+
+}
+.banners {
+  margin-top: 20px;
 }
 
 .banners .atlassian img,
