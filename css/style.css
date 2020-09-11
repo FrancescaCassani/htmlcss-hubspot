@@ -546,3 +546,43 @@ main .button p {
   width: 450px;
   height: 550px;
 }
+
+/* footer */
+footer {
+  background: #1d3442;
+}
+
+footer h3,
+footer li {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 12px;
+}
+
+footer li {
+  text-align: left;
+  list-style: none;
+  line-height: 30px;
+}
+
+footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.leftinfo,
+.centralinfo,
+.rightinfo {
+  float: left;
+  padding: 15px;
+}
+
+.leftinfo,
+.centralinfo,
+.rightinfo {
+  margin-top: 20px;
+  margin-left: 6%;
+  margin-right: 6%;
+}
