@@ -548,25 +548,27 @@ main .button p {
 }
 
 /* footer */
-footer {
+.finalbox,
+.bannerlingue {
   background: #1d3442;
 }
 
-footer h3,
-footer li {
+.finalbox .colonne h3,
+.finalbox .colonne li {
   color: white;
 }
-footer h3 {
+
+.finalbox .colonne h3 {
   margin-bottom: 12px;
 }
 
-footer li {
+.finalbox .colonne li {
   text-align: left;
   list-style: none;
   line-height: 30px;
 }
 
-footer::after {
+.finalbox::after {
   content: "";
   display: table;
   clear: both;
@@ -585,4 +587,24 @@ footer::after {
   margin-top: 20px;
   margin-left: 6%;
   margin-right: 6%;
+}
+
+.lingue li {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  padding: 5px;
+}
+
+.bannerlingue .click {
+  margin-left: 40%;
+}
+
+
+.linea hr {
+  width: 50%;
+  text-align: center;
+  margin-left: 20%;
+  color: white;
 }
