@@ -404,3 +404,88 @@ main .button p {
   border-radius: 2%;
   color: white;
 }
+
+.banners {
+  position: relative;
+}
+
+.atlassian,
+.subaru {
+  position: absolute;
+  left: 50%;
+}
+
+.doordash,
+.wistia {
+  position: absolute;
+  left: 60%;
+}
+
+.crowd,
+.classpass {
+  position: absolute;
+  left: 70%;
+}
+
+.purple,
+.vmware {
+  position: absolute;
+  left: 80%;
+}
+
+.banners::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.banners {
+  margin-bottom: 25px;
+}
+.colonna {
+  float: left;
+  padding: 5px 10px;
+}
+
+.banners .atlassian img,
+.banners .doordash img {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+}
+
+.banners .crowd img {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+}
+
+.banners .purple img {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+}
+
+.banners .subaru img {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+}
+
+.banners .wistia img {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+}
+
+.banners .classpass img {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+}
+
+.banners .vmware img {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+}
