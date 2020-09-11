@@ -242,6 +242,9 @@ main .button p {
 }
 
 /* 3 colonne */
+.colonne {
+  margin-bottom: 15px;
+}
 .colonne::after {
   content: "";
   display: table;
@@ -314,16 +317,17 @@ main .button p {
 .button2,
 .button3 {
   width: 180px;
-  height: 60px;
-  margin: auto;
-  text-align: center;
+  height: 50px;
   background: orange;
+  margin-left: 25%;
   border-radius: 2%;
 }
 
 .button1 p,
 .button2 p,
 .button3 p {
+  text-align: center;
+  padding: 15px;
   color: white;
 }
 
@@ -439,6 +443,8 @@ main .button p {
   background: orange;
   border-radius: 2%;
   margin-left: 3%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .paragrafo .free p {
@@ -534,4 +540,9 @@ main .button p {
   width: 100px;
   height: auto;
   padding: 10px;
+}
+
+.banners .donna img {
+  width: 450px;
+  height: 550px;
 }
