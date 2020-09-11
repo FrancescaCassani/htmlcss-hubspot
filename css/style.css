@@ -8,6 +8,7 @@
 
 .contenitore1 {
   background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
 }
 
 
@@ -154,7 +155,7 @@ main .button p {
   background-color: #cecece;
 }
 
-.contenitore2 h4,
+.contenitore2 h2,
 .contenitore2 p {
   margin-bottom: 35px;
 }
@@ -329,7 +330,7 @@ main .button p {
 /* Contenitore3 */
 .contenitore3 {
   margin: auto;
-  background: blue;
+  background: linear-gradient(#61bae0fa, #21bba7);
 }
 
 .tabella::after {
@@ -343,4 +344,63 @@ main .button p {
 .line3,
 .line4 {
   float: left;
+}
+
+/* Caratteristiche titolo */
+.titolo,
+.sottotitolo,
+.line1,
+.line2,
+.line3,
+.line4 {
+  text-align: center;
+  color: white;
+}
+
+.sezione4 .titolo h2 {
+  padding-top: 40px;
+}
+
+.sezione4 .sottotitolo p {
+  padding: 30px;
+}
+
+/* tabella */
+.tabella {
+  padding-left: 25%;
+}
+
+.line1,
+.line2,
+.line3,
+.line4 {
+  width: 250px;
+  height: 400px;
+  padding: 50px;
+}
+
+.cube1,
+.cube3,
+.cube5,
+.cube7 {
+  border-bottom: 1px solid white;
+}
+
+.line2 {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.line3 {
+  border-right: 1px solid white;
+}
+
+/* Contenitore4 */
+.sezione5 .free a {
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  background: orange;
+  border-radius: 2%;
+  color: white;
 }
