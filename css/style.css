@@ -1,0 +1,302 @@
+/* Impostazioni generali  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.contenitore1 {
+  background-image: url("../img/jumbotron.png");
+}
+
+
+/* Header */
+header {
+  height: 50px;
+  background-color: #cecece;
+  border-bottom: 2px solid grey;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header .box,
+header .login,
+header .free {
+  float: left;
+  text-align: center;
+}
+
+header .login,
+header .free {
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+header .login {
+  margin-left: 62%;
+}
+
+/* Icone header */
+.nav .leftmenu li {
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+.nav .leftmenu li a {
+  font-size: 15px;
+  line-height: 20px;
+  color: grey;
+  text-decoration: none;
+}
+
+.login a,
+.free a {
+  font-size: 15px;
+  line-height: 20px;
+  color: grey;
+  text-decoration: none;
+}
+
+/* Barra navigazione */
+.sezione1 .barranav {
+  background-color: #fff;
+}
+
+.sezione1 .immaginelogo {
+  padding: 15px;
+}
+
+.sezione1 .barranav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sezione1 .immaginelogo,
+.sezione1 .voci {
+  float: left;
+}
+
+.sezione1 .voci {
+  margin-left: 55%;
+}
+
+.sezione1 .voci li {
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+.sezione1 .voci li a {
+  font-size: 15px;
+  line-height: 20px;
+  color: grey;
+  text-decoration: none;
+}
+
+header .free a {
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  background: orange;
+  border-radius: 2%;
+  color: white;
+}
+
+
+/* Body first page */
+main .sezione2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text,
+.info-tools {
+  float: left;
+}
+
+.text {
+  width: 20%;
+  height: 400px;
+  padding: 15px;
+}
+
+.text h1 {
+  margin-bottom: 25px;
+}
+
+.info-tools {
+  margin-top: 35px;
+}
+
+main .button {
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  background: orange;
+  border-radius: 2%;
+}
+
+main .button p {
+  padding: 15px;
+  color: white;
+}
+
+/* Sezione centrale */
+.contenitore2 {
+  margin-top: 180px;
+  text-align: center;
+  background-color: #cecece;
+}
+
+.contenitore2 h4,
+.contenitore2 p {
+  margin-bottom: 35px;
+}
+
+/* Immagini */
+.introduzione img {
+  padding-top: 18px;
+  width: 200px;
+  height: 150px;
+}
+
+.crm img {
+  width: 150px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+/* Descrizione */
+.contenitore2 {
+  position: relative;
+  background-color: #eff4f9;
+}
+
+.sezione-centrale {
+  height: 230px;
+  width: 1200px;
+  margin: auto;
+  border: 2px solid #cecece;
+  border-radius: 2%;
+  background-color: white;
+ }
+
+.contenitore2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contenitore2 .sezione3 .learnmore,
+.contenitore2 .sezione3 .description {
+  float: left;
+  height: 30%;
+}
+
+.sezione-centrale .learnmore,
+.sezione-centrale .freehubspotcrm {
+  padding: 20px;
+}
+
+.sezione-centrale .button{
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  background: orange;
+  border-radius: 2%;
+}
+
+.sezione-centrale .button p {
+  padding: 15px;
+  color: white;
+}
+
+.hr {
+  position: absolute;
+  left: 100px;
+}
+
+.description .elenco li {
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+.description .elenco li a {
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.description .elenco li i {
+  color: white;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+/* 3 colonne */
+.colonne::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonne .leftbox,
+.colonne .centralbox,
+.colonne .rightbox {
+  float: left;
+}
+
+.colonne .leftbox {
+  width: 20%;
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: white;
+  border-radius: 2%;
+  border: 2px solid #cecece;
+}
+
+.colonne .leftbox img,
+.colonne .centralbox img,
+.colonne .rightbox img {
+  width: 150px;
+  height: 100px;
+  padding: 10px;
+}
+
+.colonne .centralbox {
+  width: 20%;
+  height: 400px;
+  margin-top: 20px;
+  margin-right: 10%;
+  background: white;
+  border-radius: 2%;
+  border: 2px solid #cecece;
+}
+
+.colonne .rightbox {
+  width: 20%;
+  height: 400px;
+  margin-top: 20px;
+  margin-right: 10%;
+  background: white;
+  border-radius: 2%;
+  border: 2px solid #cecece;
+}
+
+.colonne h2,
+.colonne p {
+  padding: 20px;
+}
+
+.leftbox .features li {
+  list-style: none;
+}
