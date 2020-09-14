@@ -1,113 +1,124 @@
-/* Impostazioni generali  */
+/* Generali */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 
-.contenitore1 {
-  background-image: url("../img/jumbotron.png");
-  background-repeat: no-repeat;
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #33475b;
+  background: #f4f9fd;
 }
 
+/* Regole */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.contenitore {
+  margin: 0 auto;
+  width: 1180px;
+}
 
-/* Header */
-header {
-  height: 50px;
-  background-color: #cecece;
+.barra-top-left,
+.barra-top-right {
+  float: left;
+  width: 50%;
+}
+
+.barra-top {
+  line-height: 80px;
   border-bottom: 2px solid grey;
 }
 
-header::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-header .box,
-header .login,
-header .free {
-  float: left;
-  text-align: center;
-}
-
-header .login,
-header .free {
-  display: inline-block;
-  padding: 15px 15px;
-}
-
-header .login {
-  margin-left: 62%;
-}
-
-/* Icone header */
-.nav .leftmenu li {
-  display: inline-block;
-  padding: 15px 15px;
-}
-
-.nav .leftmenu li a {
-  font-size: 15px;
-  line-height: 20px;
-  color: grey;
+/* Barra top */
+a {
   text-decoration: none;
 }
 
-.login a,
-.free a {
-  font-size: 15px;
-  line-height: 20px;
+.text-color a {
   color: grey;
-  text-decoration: none;
 }
 
-/* Barra navigazione */
-.sezione1 .barranav {
-  background-color: #fff;
+.text-right {
+  text-align: right;
 }
 
-.sezione1 .immaginelogo {
-  padding: 15px;
-}
-
-.sezione1 .barranav::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.sezione1 .immaginelogo,
-.sezione1 .voci {
-  float: left;
-}
-
-.sezione1 .voci {
-  margin-left: 55%;
-}
-
-.sezione1 .voci li {
+ul.lista-barra li {
+  padding: 0 10px;
   display: inline-block;
-  padding: 15px 15px;
 }
 
-.sezione1 .voci li a {
-  font-size: 15px;
-  line-height: 20px;
-  color: grey;
+ul.lista-barra li first-child {
+  padding-left: 0;
+}
+
+ul.lista-barra li last-child {
+  padding-right: 0;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px;
+  line-height: 16px;
   text-decoration: none;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 5%;
 }
 
-header .free a {
-  width: 130px;
-  height: 40px;
-  text-align: center;
-  background: orange;
-  border-radius: 2%;
+.btn-orange {
   color: white;
+  background: orange;
 }
 
+/* Barra bottom */
+.barra-bottom .immaginelogo,
+.barra-bottom .lista-barra-bottom {
+  float: left;
+  width: 50%;
+}
+
+.barra-bottom {
+  line-height: 80px;
+  background: white;
+}
+
+.lista-barra-bottom img {
+  vertical-align: middle;
+ }
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  height: 700px;
+  background: #fff4ef;
+  background-image: url("../img/jumbotron.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.text-jumbotron {
+  width: 50%;
+  padding-top: 40px;
+}
+
+.text-jumbotron h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.text-jumbotron p {
+  margin-bottom: 25px;
+}
+
+.text-jumbotron .small-text {
+  margin-top: 25px;
+  font-size: 12px;
+}
 
 /* Body first page */
 main .sezione2::after {
