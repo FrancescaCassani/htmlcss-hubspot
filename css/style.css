@@ -120,62 +120,25 @@ ul.lista-barra li last-child {
   font-size: 12px;
 }
 
-/* Body first page */
-main .sezione2::after {
-  content: "";
-  display: table;
-  clear: both;
+/* Info */
+.contenitore-small {
+  padding: 40px;
+  text-align: center;
 }
 
-.text,
-.info-tools {
+.contenitore-small img {
+  width: 250px;
+  margin-bottom: 15PX;
+}
+
+.crm,
+.info-text {
   float: left;
 }
 
-.text {
-  width: 20%;
-  height: 400px;
-  padding: 15px;
-}
-
-.text h1 {
-  margin-bottom: 25px;
-}
-
-.info-tools {
-  margin-top: 35px;
-}
-
-main .button {
-  width: 180px;
-  height: 50px;
-  text-align: center;
-  background: orange;
-  border-radius: 2%;
-}
-
-main .button p {
-  padding: 15px;
-  color: white;
-}
-
-/* Sezione centrale */
-.contenitore2 {
-  margin-top: 180px;
-  text-align: center;
-  background-color: #cecece;
-}
-
-.contenitore2 h2,
-.contenitore2 p {
-  margin-bottom: 35px;
-}
-
-/* Immagini */
-.introduzione img {
-  padding-top: 18px;
-  width: 200px;
-  height: 150px;
+.info h2,
+.info p {
+  margin-bottom: 30px;
 }
 
 .crm img {
@@ -184,88 +147,35 @@ main .button p {
   margin-bottom: 20px;
 }
 
-/* Descrizione */
-.contenitore2 {
-  position: relative;
-  background-color: #eff4f9;
+.dimensioni-details {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: white;
+  padding: 50px;
+  width: 100%;
 }
 
-.sezione-centrale {
-  height: 230px;
-  width: 1200px;
-  margin: auto;
-  border: 2px solid #cecece;
-  border-radius: 2%;
-  background-color: white;
- }
-
-.contenitore2::after {
-  content: "";
-  display: table;
-  clear: both;
+.info-text {
+  line-height: 45px;
+  padding: 0 25px;
+  text-align: left;
 }
 
-.contenitore2 .sezione3 .learnmore,
-.contenitore2 .sezione3 .description {
-  float: left;
-  height: 30%;
-}
-
-.sezione-centrale .learnmore,
-.sezione-centrale .freehubspotcrm {
-  padding: 20px;
-}
-
-.sezione-centrale .button{
-  width: 180px;
-  height: 50px;
-  text-align: center;
-  background: orange;
-  border-radius: 2%;
-}
-
-.sezione-centrale .button p {
-  padding: 15px;
-  color: white;
-}
-
-.hr {
-  position: absolute;
-  left: 100px;
-}
-
-.description .elenco li {
-  display: inline-block;
-  padding: 15px 15px;
-}
-
-.description .elenco li a {
-  font-size: 15px;
-  line-height: 20px;
-  color: black;
-  text-decoration: none;
-}
-
-.description .elenco li i {
-  color: white;
-  background-color: orange;
-  border-radius: 50%;
+.info-text .fa-check-circle {
+  color: orange;
+  margin-right: 5px;
 }
 
 /* 3 colonne */
+/* Colonna di sinistra */
 .colonne {
   margin-bottom: 15px;
 }
+
 .colonne::after {
   content: "";
   display: table;
   clear: both;
-}
-
-.features1,
-.features2,
-.features3 {
-  margin-bottom: 25px;
 }
 
 .colonne .leftbox,
@@ -290,7 +200,7 @@ main .button p {
   margin-right: 10%;
   background: white;
   border-radius: 2%;
-  border: 2px solid #cecece;
+  border: 2px solid #f4f9fd;
 }
 
 .colonne .centralbox {
@@ -300,7 +210,7 @@ main .button p {
   margin-right: 10%;
   background: white;
   border-radius: 2%;
-  border: 2px solid #cecece;
+  border: 2px solid #f4f9fd;
 }
 
 .colonne .rightbox {
@@ -310,37 +220,28 @@ main .button p {
   margin-right: 10%;
   background: white;
   border-radius: 2%;
-  border: 2px solid #cecece;
+  border: 2px solid #f4f9fd;
 }
 
-.colonne h2,
-.colonne p {
-  line-height: normal;
+.colonne .features h3 {
+  margin-bottom: 30px;margin-bottom: 30px;
 }
 
-.leftbox .features1 li,
-.centralbox .features2 li,
-.rightbox .features3 li {
+.colonne ul li i {
+  color: orange;
+  margin-right: 5px;
+}
+
+.features {
+  padding: 30px;
+}
+
+.features li {
   list-style: none;
 }
 
-.button1,
-.button2,
-.button3 {
-  width: 180px;
-  height: 50px;
-  background: orange;
-  margin-left: 25%;
-  border-radius: 2%;
-}
 
-.button1 p,
-.button2 p,
-.button3 p {
-  text-align: center;
-  padding: 15px;
-  color: white;
-}
+
 
 /* Contenitore3 */
 .contenitore3 {
