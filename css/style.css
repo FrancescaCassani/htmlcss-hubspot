@@ -297,7 +297,7 @@ ul.lista-barra li last-child {
 /* Text-growing */
 .growing {
   width: 100%;
-  height: 700px;
+  height: 800px;
   margin: auto;
   text-align: center;
   background: white;
@@ -339,9 +339,7 @@ ul.lista-barra li last-child {
   text-align: left;
 }
 
-/* Banners bposizioni */
-
-
+/* Banners posizioni */
 .logo {
   float: left;
   padding: 0 2px;
@@ -402,12 +400,11 @@ ul.lista-barra li last-child {
 }
 
 /* Final box */
-
 .leftinfo,
 .centralinfo,
 .rightinfo {
   position: relative;
-  top: -200px;
+  top: -240px;
 }
 
 .leftinfo,
@@ -420,7 +417,7 @@ ul.lista-barra li last-child {
 .finalbox {
   background: #1d3442;
   width: 100%;
-  height: 650px;
+  height: 550px;
 }
 
 .finalbox .colonne h3,
@@ -428,7 +425,6 @@ ul.lista-barra li last-child {
 .finalbox .colonne i {
   text-align: left;
   color: white;
-
 }
 
 .finalbox .colonne h3 {
@@ -455,14 +451,58 @@ ul.lista-barra li last-child {
   border: #1d3442
 }
 
-
 /* Icone */
 .icone {
   position: relative;
   right: 153px;
-  top: 330px;
+  top: 280px;
 }
 
 .icone a i {
   padding: 13px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 200px;
+  background: #1d3442;
+  color: white;
+  text-align: center;
+}
+
+.languages li {
+  color: white;
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.linea {
+  color: white;
+}
+
+.logo {
+  text-align: left;
+}
+
+.logo,
+.stuff {
+  padding-top: 40px;
+}
+
+.stuff {
+  position: absolute;
+  right: 50px;
+}
+
+.stuff li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 20px;
+}
+
+footer .img {
+  filter: grayscale(100%);
 }
