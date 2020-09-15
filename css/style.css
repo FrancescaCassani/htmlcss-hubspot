@@ -401,15 +401,34 @@ ul.lista-barra li last-child {
   height: 550px;
 }
 
-/* footer */
-.finalbox,
-.bannerlingue {
+/* Final box */
+
+.leftinfo,
+.centralinfo,
+.rightinfo {
+  position: relative;
+  top: -200px;
+}
+
+.leftinfo,
+.centralinfo,
+.rightinfo {
+  float: left;
+  padding: 15px;
+}
+
+.finalbox {
   background: #1d3442;
+  width: 100%;
+  height: 650px;
 }
 
 .finalbox .colonne h3,
-.finalbox .colonne li {
+.finalbox .colonne li,
+.finalbox .colonne i {
+  text-align: left;
   color: white;
+
 }
 
 .finalbox .colonne h3 {
@@ -422,19 +441,6 @@ ul.lista-barra li last-child {
   line-height: 30px;
 }
 
-.finalbox::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.leftinfo,
-.centralinfo,
-.rightinfo {
-  float: left;
-  padding: 15px;
-}
-
 .leftinfo,
 .centralinfo,
 .rightinfo {
@@ -443,22 +449,20 @@ ul.lista-barra li last-child {
   margin-right: 6%;
 }
 
-.lingue li {
-  color: white;
-  display: inline-block;
-  text-align: center;
-  list-style: none;
-  padding: 5px;
-}
-
-.bannerlingue .click {
-  margin-left: 40%;
+.btn-contact {
+  background: white;
+  color: #1d3442;
+  border: #1d3442
 }
 
 
-.linea hr {
-  width: 50%;
-  text-align: center;
-  margin-left: 20%;
-  color: white;
+/* Icone */
+.icone {
+  position: relative;
+  right: 153px;
+  top: 330px;
+}
+
+.icone a i {
+  padding: 13px;
 }
