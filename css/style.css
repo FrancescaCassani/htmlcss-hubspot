@@ -204,8 +204,7 @@ ul.lista-barra li last-child {
   width: 17%;
   height: 550px;
   margin-top: 20px;
-  margin-left: 17.5%;
-  margin-right: 10%;
+  margin-left: 17%;
   background: white;
   border-radius: 2%;
   border: 2px solid #f4f9fd;
@@ -216,7 +215,8 @@ ul.lista-barra li last-child {
   width: 17%;
   height: 550px;
   margin-top: 20px;
-  margin-right: 10%;
+  margin-right: 8%;
+  margin-left: 8%;
   background: white;
   border-radius: 2%;
   border: 2px solid #f4f9fd;
@@ -227,7 +227,7 @@ ul.lista-barra li last-child {
   width: 17%;
   height: 550px;
   margin-top: 20px;
-  margin-right: 10%;
+  margin-right: 15%;
   background: white;
   border-radius: 2%;
   border: 2px solid #f4f9fd;
@@ -377,7 +377,7 @@ ul.lista-barra li last-child {
 
 .banners .logo {
   position: relative;
-  left: 900px;
+  left: 700px;
   bottom: 300px;
 }
 
